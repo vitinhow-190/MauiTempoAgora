@@ -9,11 +9,11 @@
             Spacing="25">
 
             <Button Text="Minha Localização" Clicked="Button_Clicked_Localizacao" />
-            <Label x:Name="lbl_coords" />
+            <Label x:Name="lbl_coods" />
 
             <Entry x:Name="txt_cidade" />
             <Button Text="Buscar Previsão" Clicked="Button_Clicked_Previsao" />
-
+            
             <Label x:Name="lbl_res" />
 
             <WebView x:Name="wv_mapa" HeightRequest="500" />
