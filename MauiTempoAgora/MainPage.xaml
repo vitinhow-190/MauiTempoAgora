@@ -9,7 +9,7 @@
             Spacing="25">
 
             <Button Text="Minha Localização" Clicked="Button_Clicked_Localizacao" />
-            <Label x:Name="lbl_coods" />
+            <Label x:Name="lbl_coords" />
 
             <Entry x:Name="txt_cidade" />
             <Button Text="Buscar Previsão" Clicked="Button_Clicked_Previsao" />

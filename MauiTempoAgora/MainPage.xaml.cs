@@ -83,7 +83,7 @@ namespace MauiTempoAgora
                                       $"&lat={t.lat.ToString().Replace(",", ".")}&Lon=" +
                                       $"{t.lon.ToString().Replace(", ", ".")}";
                         
-                        wv_mapa.Sourse = mapa;
+                        wv_mapa.Source = mapa;
 
                         Debug.WriteLine(mapa);
                     }
